@@ -1,0 +1,27 @@
+```yaml
+name: Basic Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  basic-tasks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Display Welcome Message
+        run: echo "Welcome to GitHub Actions!"
+
+      - name: Display Current Date and Time
+        run: date
+
+      - name: Display Current Working Directory
+        run: pwd
+
+      - name: List All Files and Directories
+        run: ls -la
+
+      - name: Display Completion Message
+        run: echo "Workflow completed successfully!"
+```
