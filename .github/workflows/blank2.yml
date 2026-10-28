@@ -1,4 +1,4 @@
-```yaml
+
 name: Basic Workflow
 
 on:
@@ -24,4 +24,4 @@ jobs:
 
       - name: Display Completion Message
         run: echo "Workflow completed successfully!"
-```
+
